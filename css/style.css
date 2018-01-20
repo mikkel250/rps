@@ -1,0 +1,68 @@
+h2 {
+	text-align: center;
+}
+
+button {
+	display: inline-block;
+	justify-content: center;
+	height: 150px;
+	width: 250px;
+	padding: 5px;
+	margin: 0;
+	vertical-align: top;	
+}
+
+#rock {
+	background-image: url('../images/rock-small.jpg');
+	background-size: 250px 150px;
+	height: 150px;
+	width: 250px;
+}
+
+#paper {
+	background-image: url('../images/paper-small.jpg');
+	background-size: 250px 150px;
+	height: 150px;
+	width: 250px;
+}
+
+#scissors {
+	background-image: url('../images/scissors2-small.jpg');
+	background-size: 250px 150px;
+	height: 150px;
+	width: 250px;
+}
+
+#selection-container {
+	display: grid;
+	width: 900px;
+	height: 225px;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 27%;
+	margin: auto;
+}
+
+#choose {	
+	margin: auto;
+	text-align: center;
+	font-size: x-large;
+	font-weight: bold;
+}
+/*
+#playerChoice {
+	font-size: xx-large;
+	font-weight: bold;
+}
+
+#computerChoice {	
+	font-size: xx-large;
+	font-weight: bold;
+}
+
+*/
+#results-container {
+	margin: auto;
+	text-align: center;	
+	font-size: x-large;
+	font-weight: bold;
+}
