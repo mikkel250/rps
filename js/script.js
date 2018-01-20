@@ -1,9 +1,20 @@
 var computerSelection;
 var selection;
-var playerSelection //= selection;
+var playerSelection = document.querySelector("#rock");
 var computerScore = 0;
 var playerScore = 0;
 var valid = false;
+
+const buttons = document.querySelectorAll('button');
+
+buttons.forEach((button) => {
+    button.addEventListener('click', (e) => {
+        if ($('button').attr('id') == 'rock') {
+            playerSelection = 'rock';
+
+        }
+    }
+}
 /*
 function getPlayerSelection() {
 	var selection = window.prompt("Choose what to play: \nRock, Paper, or Scissors.\nIncorrect or invalid entries will result in a loss.").toLowerCase();
@@ -12,7 +23,7 @@ function getPlayerSelection() {
 }
 
 
-/* removing vuser alidation due to time spent attempting to get it working.
+/* removing user validation due to time spent attempting to get it working.
 	Will probably add later when I have a bit more experience.
 	comments/critique/suggestions welcome
 
