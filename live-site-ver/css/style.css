@@ -11,10 +11,7 @@ button {
 	margin: 0;
 	vertical-align: top;	
 }
-div {
-	padding-top: 5px;
-	padding-bottom: 5px;
-}
+
 #rock {
 	background-image: url('http://www.mikkelceramics.com/rps2/images/rock-small.jpg');
 	background-size: 250px 150px;
