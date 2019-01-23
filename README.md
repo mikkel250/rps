@@ -1,4 +1,4 @@
-odin-project
+permalink: /live-site-ver/index.html
 From The Odin Project's JavaScript Fundamentals Project: Rock Paper Scissors 
 https://www.theodinproject.com/courses/web-development-101/lessons/rock-paper-scissors?ref=lnav
 
