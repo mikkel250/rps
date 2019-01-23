@@ -13,21 +13,21 @@ button {
 }
 
 #rock {
-	background-image: url('http://www.mikkelceramics.com/rps2/images/rock-small.jpg');
+	background-image: url('images/rock-small.jpg');
 	background-size: 250px 150px;
 	height: 150px;
 	width: 250px;
 }
 
 #paper {
-	background-image: url('http://www.mikkelceramics.com/rps2/images/paper-small.jpg');
+	background-image: url('/images/paper-small.jpg');
 	background-size: 250px 150px;
 	height: 150px;
 	width: 250px;
 }
 
 #scissors {
-	background-image: url('http://www.mikkelceramics.com/rps2/images/scissors2-small.jpg');
+	background-image: url('images/scissors2-small.jpg');
 	background-size: 250px 150px;
 	height: 150px;
 	width: 250px;
